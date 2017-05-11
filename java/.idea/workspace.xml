@@ -16,12 +16,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LeapYearTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeapYearTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/minikata/LeapYearTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="60">
+              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeapYear.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/minikata/LeapYear.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="e#98#99#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,8 +60,8 @@
         <option value="$PROJECT_DIR$/src/com/minikata/main.java" />
         <option value="$PROJECT_DIR$/src/main/minikata/LeapYear.java" />
         <option value="$PROJECT_DIR$/src/com/minikata/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/minikata/LeapYear.java" />
         <option value="$PROJECT_DIR$/src/com/minikata/LeapYearTest.java" />
+        <option value="$PROJECT_DIR$/src/com/minikata/LeapYear.java" />
       </list>
     </option>
   </component>
@@ -183,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LeapYearTest.shouldWorkWithFour">
+  <component name="RunManager" selected="JUnit.LeapYearTest">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="main.minikata.LeapYear" />
@@ -241,6 +254,32 @@
       <option name="MAIN_CLASS_NAME" value="com.minikata.LeapYearTest" />
       <option name="METHOD_NAME" value="shouldWorkWithFour" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeapYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.minikata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="LeapYear" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.minikata" />
+      <option name="MAIN_CLASS_NAME" value="com.minikata.LeapYearTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -447,16 +486,18 @@
       <setting name="rowsRange" value="" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.com.minikata in LeapYear" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.LeapYearTest.shouldWorkWithFour" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LeapYearTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LeapYearTest.shouldWorkWithFour" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.com.minikata in LeapYear" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LeapYearTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LeapYearTest.shouldWorkWithFour" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.com.minikata in LeapYear" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -477,6 +518,9 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="LeapYearTest - 2017.05.11 at 18h 26m 36s.xml">
+      <configuration name="LeapYearTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="LeapYearTest_shouldWorkWithFour - 2017.05.11 at 18h 18m 40s.xml">
       <configuration name="LeapYearTest.shouldWorkWithFour" configurationId="JUnit" />
     </history-entry>
@@ -484,6 +528,9 @@
       <configuration name="LeapYearTest.shouldWorkWithFour" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LeapYearTest_shouldWorkWithFour - 2017.05.11 at 18h 24m 18s.xml">
+      <configuration name="LeapYearTest.shouldWorkWithFour" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeapYearTest_shouldWorkWithFour - 2017.05.11 at 18h 25m 35s.xml">
       <configuration name="LeapYearTest.shouldWorkWithFour" configurationId="JUnit" />
     </history-entry>
     <history-entry file="com_minikata_in_LeapYear - 2017.05.11 at 17h 49m 33s.xml">
@@ -557,9 +604,20 @@
     <entry file="file://$PROJECT_DIR$/LeapYear/src/com/minikata/LeapYearTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/minikata/LeapYearTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="60">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/minikata/LeapYear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
