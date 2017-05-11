@@ -10,4 +10,9 @@ public class LeapYearTest {
 		assertThat(LeapYear.isLeapYear(4), is(true));
 	}
 
+	@Test
+	public void shouldWorkWithThree() throws Exception {
+		assertThat(LeapYear.isLeapYear(3), is(false));
+	}
+
 }
