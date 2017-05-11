@@ -20,4 +20,9 @@ public class LeapYearTest {
 		assertThat(LeapYear.isLeapYear(100), is(false));
 	}
 
+	@Test
+	public void shouldWorkWith2000() throws Exception {
+		assertThat(LeapYear.isLeapYear(2000), is(true));
+	}
+
 }
