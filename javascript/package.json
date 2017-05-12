@@ -1,0 +1,19 @@
+{
+  "name": "leap-year",
+  "version": "0.0.1",
+  "description": "Simple exercise to practice an initial TDD Kata.",
+  "main": "leap-year.js",
+  "scripts": {
+    "run": "node leap-year.js",
+    "test": "mocha test"
+  },
+  "keywords": [
+    "TDD",
+    "Pair",
+    "programming",
+    "unit",
+    "tests"
+  ],
+  "author": "Juan Caja",
+  "license": "ISC"
+}
