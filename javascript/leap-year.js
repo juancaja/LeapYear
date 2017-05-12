@@ -18,4 +18,8 @@ describe('Leap Year Kata', function(){
 	it('should return false for year 100', function(){
 		assert.equal(false, isLeapYear(100));
 	});
+
+	it('should return true for year 2000', function(){
+		assert.equal(true, isLeapYear(2000));
+	});
 });
